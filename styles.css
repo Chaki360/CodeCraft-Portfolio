@@ -16,6 +16,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 
@@ -38,16 +39,31 @@ nav a {
 .btn-primary {
     border: none;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 5px;
     color: #fff;
     background-color: #3cb371;
-    margin: 10px;
-    padding: 15px;
+    margin: 7px;
+    padding: 12px;
 }
 
 .web-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+/* header styles */
+.header {
+    background-color: #fff8f3;
+}
+
+.banner-container {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-img {
+    width: 500px;
 }
