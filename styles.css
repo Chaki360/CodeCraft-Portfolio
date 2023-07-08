@@ -56,14 +56,45 @@ nav a {
 /* header styles */
 .header {
     background-color: #fff8f3;
+    background-image: url("https://raw.githubusercontent.com/ProgrammingHero1/portfolio-resources/main/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
 }
 
+/* banner styles */
+
 .banner-container {
-    padding: 30px 30px 30px 150px;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+
+}
+
+.banner-text {
+    width: 500px;
 }
 
 .banner-img {
     width: 500px;
+    margin-left: 10px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin: 0px;
+}
+
+.banner-title {
+    font-size: 77px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: normal;
+    font-weight: 400;
 }
