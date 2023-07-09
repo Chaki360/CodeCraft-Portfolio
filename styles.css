@@ -171,6 +171,12 @@ main {
 }
 
 /* resume section */
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
 .resume-column-title {
     color: #474747;
     font-size: 30px;
