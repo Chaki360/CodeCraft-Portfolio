@@ -187,3 +187,11 @@ main {
     font-size: 30px;
     font-weight: 700;
 }
+
+/* footer styles */
+.footer-container {
+    display: flex;
+    padding: 130px 200px;
+    background-color: aliceblue;
+    margin-top: 100px;
+}
